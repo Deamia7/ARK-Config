@@ -1,0 +1,1 @@
+These are the dynamic config color files for each holiday in ARK, updated to 2023/2024 holiday colors for ASA. Any other holiday colors will be added as they are added through official channels. The actual dynamicconfig.ini file is my servers dynamicconfig, the other event named ones are ONLY the event colors overrites.
