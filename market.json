@@ -1,0 +1,31 @@
+{
+  "Settings": {
+    "ArmorMerchant": {
+		"MarketDisabled": false,
+		"RestockOnSale": true,
+	  ]
+    },
+    "WeaponMerchant": {
+		"MarketDisabled": false,
+		"RestockOnSale": true,
+		"PriceMultiplier": 5.0,
+		"ItemsToSell": 2,
+		"MinPricePerItem": 0,
+		"MaxPricePerItem": 0,
+		"ExcludedItems": []
+    },
+    "CreatureMerchant": {
+		"MarketDisabled": false,
+		"RestockOnSale": true,
+		"PriceMultiplier": 0.1,
+		"ItemsToSell": 2,
+		"MinDinoLevelMulti": 0.999,
+		"MaxDinoLevelMulti": 1.0
+    },
+    "SaddleMerchant": {
+		"MarketDisabled": true,
+		"RestockOnSale": true,
+    },
+    "GlobalTimeForScan": 30.0
+  }
+}
