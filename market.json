@@ -3,13 +3,17 @@
     "ArmorMerchant": {
 		"MarketDisabled": false,
 		"RestockOnSale": true,
-	  ]
+		"PriceMultiplier": 1.0,
+		"ItemsToSell": 10,
+		"MinPricePerItem": 0,
+		"MaxPricePerItem": 0,
+		"ExcludedItems": []
     },
     "WeaponMerchant": {
 		"MarketDisabled": false,
 		"RestockOnSale": true,
-		"PriceMultiplier": 5.0,
-		"ItemsToSell": 2,
+		"PriceMultiplier": 1.0,
+		"ItemsToSell": 10,
 		"MinPricePerItem": 0,
 		"MaxPricePerItem": 0,
 		"ExcludedItems": []
@@ -18,13 +22,22 @@
 		"MarketDisabled": false,
 		"RestockOnSale": true,
 		"PriceMultiplier": 0.1,
-		"ItemsToSell": 2,
+		"ItemsToSell": 10,
+		"MinPricePerItem": 0,
+		"MaxPricePerItem": 0,
+		"ExcludedDinos": [],
 		"MinDinoLevelMulti": 0.999,
 		"MaxDinoLevelMulti": 1.0
     },
     "SaddleMerchant": {
 		"MarketDisabled": true,
 		"RestockOnSale": true,
+		"PriceMultiplier": 1.0,
+		"ItemsToSell": 10,
+		"MinPricePerItem": 0,
+		"MaxPricePerItem": 0,
+		"ExcludedDinos": [],
+		"ExcludedItems": []
     },
     "GlobalTimeForScan": 30.0
   }
