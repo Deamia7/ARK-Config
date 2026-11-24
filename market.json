@@ -26,8 +26,8 @@
 		"MinPricePerItem": 0,
 		"MaxPricePerItem": 0,
 		"ExcludedDinos": [],
-		"MinDinoLevelMulti": 5,
-		"MaxDinoLevelMulti": 5
+		"MinDinoLevelMulti": 30,
+		"MaxDinoLevelMulti": 30
     },
     "SaddleMerchant": {
 		"MarketDisabled": true,
