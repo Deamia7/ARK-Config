@@ -1,0 +1,48 @@
+{
+  "Settings": {
+    "ArmorMerchant": {
+		"MarketDisabled": false,
+		"RestockOnSale": true,
+		"PriceMultiplier": 2.0,
+		"ItemsToSell": 25,
+		"MinPricePerItem": 0,
+		"MaxPricePerItem": 0,
+		"ExcludedItems": [
+		"/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekBoots.PrimalItemArmor_TekBoots_C"
+	  ]
+    },
+    "WeaponMerchant": {
+		"MarketDisabled": false,
+		"RestockOnSale": true,
+		"PriceMultiplier": 5.0,
+		"ItemsToSell": 2,
+		"MinPricePerItem": 0,
+		"MaxPricePerItem": 0,
+		"ExcludedItems": []
+    },
+    "CreatureMerchant": {
+		"MarketDisabled": false,
+		"RestockOnSale": true,
+		"PriceMultiplier": 0.1,
+		"ItemsToSell": 2,
+		"MinPricePerItem": 1000,
+		"MaxPricePerItem": 2000,
+		"ExcludedDinos": [
+		"/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP_C"
+		],
+		"MinDinoLevelMulti": 0.999,
+		"MaxDinoLevelMulti": 1.0
+    },
+    "SaddleMerchant": {
+		"MarketDisabled": true,
+		"RestockOnSale": true,
+		"PriceMultiplier": 3.0,
+		"ItemsToSell": 0,
+		"MinPricePerItem": 0,
+		"MaxPricePerItem": 0,
+		"ExcludedDinos": [],
+		"ExcludedItems": []
+    },
+    "GlobalTimeForScan": 30.0
+  }
+}
